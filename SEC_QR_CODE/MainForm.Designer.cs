@@ -50,6 +50,7 @@
             label12 = new Label();
             btnResult = new Button();
             qrCodeBox = new PictureBox();
+            saveFileDialog1 = new SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)qrCodeBox).BeginInit();
             SuspendLayout();
             // 
@@ -61,6 +62,7 @@
             btnSavePDF.TabIndex = 1;
             btnSavePDF.Text = "Save PDF ";
             btnSavePDF.UseVisualStyleBackColor = true;
+            btnSavePDF.Click += btnSavePDF_Click;
             // 
             // btnLogs
             // 
@@ -301,5 +303,6 @@
         private Label label12;
         private Button btnResult;
         private PictureBox qrCodeBox;
+        private SaveFileDialog saveFileDialog1;
     }
 }
