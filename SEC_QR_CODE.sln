@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEC_QR_CODE", "SEC_QR_CODE\SEC_QR_CODE.csproj", "{B9B32754-27E9-4EC2-961A-749A039F6A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9B32754-27E9-4EC2-961A-749A039F6A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B32754-27E9-4EC2-961A-749A039F6A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B32754-27E9-4EC2-961A-749A039F6A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B32754-27E9-4EC2-961A-749A039F6A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A783D5C-61B0-47C5-86DD-1288B4B26D87}
+	EndGlobalSection
+EndGlobal
