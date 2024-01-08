@@ -99,14 +99,21 @@ namespace SEC_QR_CODE
                 Document document = new Document(pdf, pageSize); // the size let the user select the size of the sticker
                 document.SetFontSize(10);
                 document.SetMargins(0,0,0,0);
-
+                // Set content alignment to center
+                document.SetTextAlignment(TextAlignment.CENTER);
 
 
                 // Create table
                 Table table = new Table(new float[] { 1, 1, 1});
+
+                // Set padding for table cells
+                table.SetPadding(2);
+
                 table.SetWidth(UnitValue.CreatePercentValue(100));
-                // Set table margin to zero
-                table.SetMargin(0);
+                table.SetHeight(UnitValue.CreatePercentValue(100));
+
+                // Set table margin to 2
+                table.SetMargin(5);
                 // Adjust table layout
                 table.SetHorizontalAlignment(iText.Layout.Properties.HorizontalAlignment.LEFT);
                 table.SetVerticalAlignment(VerticalAlignment.TOP);
@@ -154,8 +161,11 @@ namespace SEC_QR_CODE
                 image.SetMargins(0,0,0,0);
 
 
-
+               
                 qrCodeCell.Add(image);
+                qrCodeCell.SetHorizontalAlignment(iText.Layout.Properties.HorizontalAlignment.CENTER);
+                qrCodeCell.SetVerticalAlignment(VerticalAlignment.MIDDLE);
+                qrCodeCell.SetTextAlignment(TextAlignment.CENTER);
 
 
 
