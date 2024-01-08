@@ -98,7 +98,7 @@ namespace SEC_QR_CODE
 
                 Document document = new Document(pdf, pageSize); // the size let the user select the size of the sticker
                 document.SetFontSize(10);
-                document.SetMargins(0,0,0,0);
+                document.SetMargins(10,0,0,0);
                 // Set content alignment to center
                 document.SetTextAlignment(TextAlignment.CENTER);
 
